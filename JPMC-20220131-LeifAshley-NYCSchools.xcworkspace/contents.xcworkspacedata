@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SwiftyBeaver/SwiftyBeaver.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Alamofire/Alamofire.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:JPMC-20220131-LeifAshley-NYCSchools.xcodeproj">
+   </FileRef>
+</Workspace>

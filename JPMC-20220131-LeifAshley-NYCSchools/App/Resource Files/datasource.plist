@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>isUsingNetworkForData</key>
+	<true/>
+	<key>satScoresPath</key>
+	<string>/resource/f9bf-2cp4.json</string>
+	<key>schoolsPath</key>
+	<string>/resource/s3k6-pzi2.json</string>
+	<key>host</key>
+	<string>data.cityofnewyork.us</string>
+	<key>scheme</key>
+	<string>https</string>
+</dict>
+</plist>
