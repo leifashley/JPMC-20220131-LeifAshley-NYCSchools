@@ -33,9 +33,6 @@
 		9399A90927AB45BA000E00FE /* schoolsAll.json in Resources */ = {isa = PBXBuildFile; fileRef = 9399A90527AB45BA000E00FE /* schoolsAll.json */; };
 		9399A90A27AB45BA000E00FE /* schoolsAll.json in Resources */ = {isa = PBXBuildFile; fileRef = 9399A90527AB45BA000E00FE /* schoolsAll.json */; };
 		9399A90B27AB45BA000E00FE /* schoolsAll.json in Resources */ = {isa = PBXBuildFile; fileRef = 9399A90527AB45BA000E00FE /* schoolsAll.json */; };
-		9399A90D27AB55E9000E00FE /* ViewDataFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9399A90C27AB55E9000E00FE /* ViewDataFormatters.swift */; };
-		9399A90E27AB55E9000E00FE /* ViewDataFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9399A90C27AB55E9000E00FE /* ViewDataFormatters.swift */; };
-		9399A90F27AB55E9000E00FE /* ViewDataFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9399A90C27AB55E9000E00FE /* ViewDataFormatters.swift */; };
 		9399A91127AB5700000E00FE /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9399A91027AB5700000E00FE /* Logging.swift */; };
 		9399A91227AB5700000E00FE /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9399A91027AB5700000E00FE /* Logging.swift */; };
 		9399A91327AB5700000E00FE /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9399A91027AB5700000E00FE /* Logging.swift */; };
@@ -67,6 +64,9 @@
 		93A3325A27ADC04800DCAE72 /* HttpNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937A27E527A8B7D9000D90E6 /* HttpNetworking.swift */; };
 		93A3325B27ADC04900DCAE72 /* HttpNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937A27E527A8B7D9000D90E6 /* HttpNetworking.swift */; };
 		93A3325D27ADC56F00DCAE72 /* ViewDataFormattersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A3325C27ADC56F00DCAE72 /* ViewDataFormattersTest.swift */; };
+		93A3325F27ADDE7A00DCAE72 /* ViewDataFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A3325E27ADDE7A00DCAE72 /* ViewDataFormatters.swift */; };
+		93A3326027ADDE8200DCAE72 /* ViewDataFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A3325E27ADDE7A00DCAE72 /* ViewDataFormatters.swift */; };
+		93A3326127ADDE8300DCAE72 /* ViewDataFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A3325E27ADDE7A00DCAE72 /* ViewDataFormatters.swift */; };
 		93FA520327AD735D00C52F87 /* SchoolMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA520227AD735D00C52F87 /* SchoolMapView.swift */; };
 /* End PBXBuildFile section */
 
@@ -126,10 +126,10 @@
 		9399A8ED27A9903B000E00FE /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9399A90427AB45BA000E00FE /* satScoresAll.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = satScoresAll.json; sourceTree = "<group>"; };
 		9399A90527AB45BA000E00FE /* schoolsAll.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schoolsAll.json; sourceTree = "<group>"; };
-		9399A90C27AB55E9000E00FE /* ViewDataFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewDataFormatters.swift; path = ../../../ViewDataFormatters.swift; sourceTree = "<group>"; };
 		9399A91027AB5700000E00FE /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
 		9399A91627AB712A000E00FE /* SatSchoolDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatSchoolDetailView.swift; sourceTree = "<group>"; };
 		93A3325C27ADC56F00DCAE72 /* ViewDataFormattersTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDataFormattersTest.swift; sourceTree = "<group>"; };
+		93A3325E27ADDE7A00DCAE72 /* ViewDataFormatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDataFormatters.swift; sourceTree = "<group>"; };
 		93FA520227AD735D00C52F87 /* SchoolMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -244,7 +244,7 @@
 		937A27DA27A8B747000D90E6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9399A90C27AB55E9000E00FE /* ViewDataFormatters.swift */,
+				93A3325E27ADDE7A00DCAE72 /* ViewDataFormatters.swift */,
 				930033DF27ACCE6E0099FB90 /* View Models */,
 				9399A91527AB65B2000E00FE /* School Views */,
 			);
@@ -441,7 +441,6 @@
 				937A27EA27A8B836000D90E6 /* SchoolsViewModel.swift in Sources */,
 				9399A91727AB712A000E00FE /* SatSchoolDetailView.swift in Sources */,
 				937A27E227A8B7CA000D90E6 /* DataSources.swift in Sources */,
-				9399A90D27AB55E9000E00FE /* ViewDataFormatters.swift in Sources */,
 				93FA520327AD735D00C52F87 /* SchoolMapView.swift in Sources */,
 				9399A91127AB5700000E00FE /* Logging.swift in Sources */,
 				930033E127ACEAEC0099FB90 /* HeaderCardView.swift in Sources */,
@@ -451,6 +450,7 @@
 				937A27E427A8B7D2000D90E6 /* DataModels.swift in Sources */,
 				937A27DE27A8B7A9000D90E6 /* Constants.swift in Sources */,
 				937A27E027A8B7AE000D90E6 /* Extensions.swift in Sources */,
+				93A3325F27ADDE7A00DCAE72 /* ViewDataFormatters.swift in Sources */,
 				937A27E627A8B7D9000D90E6 /* HttpNetworking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,7 +461,6 @@
 			files = (
 				93A3325327ADC00E00DCAE72 /* App.swift in Sources */,
 				93A3324E27ADC00500DCAE72 /* SchoolsViewModel.swift in Sources */,
-				9399A90E27AB55E9000E00FE /* ViewDataFormatters.swift in Sources */,
 				93A3325D27ADC56F00DCAE72 /* ViewDataFormattersTest.swift in Sources */,
 				9399A91227AB5700000E00FE /* Logging.swift in Sources */,
 				93A3324B27ADC00100DCAE72 /* HeaderCardView.swift in Sources */,
@@ -475,6 +474,7 @@
 				93A3325A27ADC04800DCAE72 /* HttpNetworking.swift in Sources */,
 				93A3325227ADC00E00DCAE72 /* Constants.swift in Sources */,
 				93A3325427ADC00E00DCAE72 /* Extensions.swift in Sources */,
+				93A3326027ADDE8200DCAE72 /* ViewDataFormatters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,7 +482,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9399A90F27AB55E9000E00FE /* ViewDataFormatters.swift in Sources */,
 				93A3324D27ADC00200DCAE72 /* HeaderCardView.swift in Sources */,
 				93A3324927ADBFF600DCAE72 /* DataModels.swift in Sources */,
 				937A27CD27A8B6C2000D90E6 /* JPMC_20220131_LeifAshley_NYCSchoolsUITestsLaunchTests.swift in Sources */,
@@ -498,6 +497,7 @@
 				93A3324827ADBFF600DCAE72 /* DataSources.swift in Sources */,
 				9399A91327AB5700000E00FE /* Logging.swift in Sources */,
 				9399A91927AB712A000E00FE /* SatSchoolDetailView.swift in Sources */,
+				93A3326127ADDE8300DCAE72 /* ViewDataFormatters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
